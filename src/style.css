@@ -1,0 +1,55 @@
+* {
+    margin-top: 10px;
+}
+
+body {
+    background-color: lightgray;
+}
+.column-weather {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.WeatherTable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+}
+ul {
+    
+    margin: 10px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+#winDeg, #winDir, #winSp, #humid {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#currLoc {
+    font-size: x-large;
+}
