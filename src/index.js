@@ -79,9 +79,6 @@ function showPosition(position) {
         winDir.innerText = w.current.wind_dir;
         winSp.innerText = w.current.wind_speed;
         humid.innerText = w.current.humidity;
-
-
-
         console.log(w);
     })
     .catch((e) =>{
